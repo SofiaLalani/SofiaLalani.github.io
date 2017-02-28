@@ -1,0 +1,79 @@
+
+
+
+.jumbotron {
+	background: 50%;
+
+}
+
+.jumbotron .container {
+	color: pink;
+	width: 100%;
+
+}
+
+.jumbotron .container p {
+	color: red;
+	float: center;
+	width: -40px;
+
+
+
+}
+
+.jumbotron ul li {
+	font-size: 25px;
+	display: inline;
+	padding: 10px;
+	width: 150px;
+	float: center;
+	padding: 20px;
+	margin: 20px;	
+
+}
+
+.navbar .navbar-header a {
+	color: pink;
+	text-align: center;
+
+}
+
+.col-md-4 p img {
+	padding: 0 auto;
+	margin: 0 auto;
+
+}
+
+.hide { 
+	position: absolute;
+	z-index: 3;
+
+ }
+
+/*.enlarge {
+	transition: all .3s ease-in-out;
+}*/
+
+.enlarge:hover {
+	transform:scale(2,2);
+	transform-origin:0 0;
+	
+}
+
+
+/*.btn {
+	float: left;
+	width: 200px;
+}*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media screen (max-width: 700px) {
+	ul li {
+		font-size: 1em;
+
+	}
+}
